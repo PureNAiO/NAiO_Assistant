@@ -1,0 +1,70 @@
+{
+    "request": {
+        "resolution": {
+            "resolution_attachments": []
+        },
+        "requester": {
+            "email_id": "jackal.cao@eubts.net",
+            "name": "Jackal Cao",
+            "id": "6956"
+        },
+        "priority": {
+            "color": "#ffff00",
+            "name": "S3 - Medium",
+            "id": "303"
+        },
+        "udf_fields": {
+            "udf_pick_602": null,
+            "udf_pick_305": null,
+            "udf_pick_306": null,
+            "udf_pick_605": null,
+            "udf_sline_303": null,
+            "udf_sline_304": null,
+            "udf_sline_307": null,
+            "udf_sline_901": null,
+            "udf_sline_603": null,
+            "udf_pick_301": null,
+            "udf_pick_302": "Jackal Cho"
+        },
+        "status": {
+            "color": "#0066ff",
+            "name": "Open",
+            "id": "2"
+        },
+        "request_type": {
+            "name": "Incident",
+            "id": "1"
+        },
+        "site": {
+            "name": "EUBTS_GZ",
+            "id": "3911"
+        },
+        "subject": "{Interface {IF} of CoreSW GZ down!}",
+        "mode": {
+            "name": "E-Mail",
+            "id": "1"
+        },
+        "group": {
+            "name": "MSP Support Team",
+            "id": "305"
+        },
+        "technician": {
+            "email_id": "sd-mspsupport@f1.hk",
+            "name": "MSP Support",
+            "profile_pic": {
+                "content-url": "/images/default-profile-pic2.svg",
+                "name": "default-profile-pic2.svg"
+            },
+            "is_vipuser": false,
+            "id": "301",
+            "department": {
+                "name": "IT Services",
+                "id": 5
+            }
+        },
+        "category": {
+            "name": "Alert",
+            "id": "301"
+        }
+    }
+}
