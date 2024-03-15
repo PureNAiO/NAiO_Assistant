@@ -27,4 +27,4 @@ async def create_ticket(msg: ZabbixData):
     if result != 'OK':
         print('error')
     # To SAGA Robot
-    robot.call_robot(issue_data['if_name'])
+    robot.call_robot()

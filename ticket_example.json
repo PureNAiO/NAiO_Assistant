@@ -39,7 +39,7 @@
             "name": "EUBTS_GZ",
             "id": "3911"
         },
-        "subject": "{Interface {IF} of CoreSW GZ down!}",
+        "subject": "Interface  of CoreSW GZ down!",
         "mode": {
             "name": "E-Mail",
             "id": "1"
