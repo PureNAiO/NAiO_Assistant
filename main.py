@@ -1,11 +1,12 @@
 import json
+import os
 from sd import Service
 from actor import Actor
 from pydantic import BaseModel
 from fastapi import FastAPI
 
 app = FastAPI()
-service = Service('AC4F7788-8EE5-4C9A-A58D-73453D2A7D83')
+service = Service(os.environ.get('SD_URL'), os.environ.get('SD_TOKEN'))
 robot = Actor('http://127.0.0.1:5003/api/action')
 
 

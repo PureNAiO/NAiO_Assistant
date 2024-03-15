@@ -2,8 +2,8 @@ import requests
 
 
 class Service:
-    def __init__(self, service_token):
-        self.url = "https://servicedesk.f1.hk/api/v3/"
+    def __init__(self, url, service_token):
+        self.url = url
         self.headers = {"authtoken": service_token,
                         "Content-Type" : "application/x-www-form-urlencoded"}
 
