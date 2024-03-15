@@ -6,7 +6,7 @@ from fastapi import FastAPI
 
 app = FastAPI()
 service = Service('AC4F7788-8EE5-4C9A-A58D-73453D2A7D83')
-robot = Actor('http://127.0.0.1:5004/api/action')
+robot = Actor('http://127.0.0.1:5003/api/action')
 
 
 class ZabbixData(BaseModel):
