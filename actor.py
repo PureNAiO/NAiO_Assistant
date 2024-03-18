@@ -10,7 +10,7 @@ class Actor:
         response = requests.post(url, json=payload)
 
     def call_insight(self, insight_url):
-        url = insight_url + '/api/action'
+        url = insight_url + '/api/warning'
         payload = {'device_name': '10.1.1.254',
                    'warn_msg': 'Interface Vl888 of GZ-CoreSW Failed'}
         response = requests.post(url, json=payload)
