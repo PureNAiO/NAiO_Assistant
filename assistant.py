@@ -7,7 +7,9 @@ from fastapi import FastAPI
 
 app = FastAPI()
 service = Service(os.environ.get('SD_URL'), os.environ.get('SD_TOKEN'))
-robot = Actor('http://127.0.0.1:5003/api/action')
+robot = Actor()
+robot_url = 'http://127.0.0.1:5003'
+insight_url = 'http://127.0.0.1:5002'
 
 
 class ZabbixData(BaseModel):
@@ -27,4 +29,5 @@ async def create_ticket(msg: ZabbixData):
     if result != 'OK':
         print('error')
     # To SAGA Robot
-    robot.call_robot()
+    robot.call_robot(robot_url)
+    robot.call_insight(insight_url)
