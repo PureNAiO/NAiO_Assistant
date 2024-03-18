@@ -3,7 +3,7 @@ import requests
 
 class Actor:
     def call_robot(self, robot_url):
-        url = robot_url + '/api/action'
+        url = robot_url + '/api/check'
         payload = {'ip': '10.1.1.254',
                    'issue_ip': '192.168.111.111',
                    'if_name': 'vlan 888'}
